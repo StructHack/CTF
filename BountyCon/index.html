@@ -1,0 +1,91 @@
+
+<!DOCTYPE html><html><head>
+	<title>nonoflag</title>
+	<meta charset="utf-8">
+	<script src="main.js"></script>
+	<style>
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #444;
+	font-family: sans-serif;
+}
+main {
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+	margin: 150px auto 10px;
+	position: relative;
+	width: 200px;
+}
+table {
+	border-collapse: collapse;
+	margin-bottom: 1px;
+}
+td {
+	background: #ddd;
+	border: 1px solid #444;
+	height: 25px;
+	text-align: center;
+	width: 25px;
+}
+input[type="text"], button {
+	background: #fff;
+	border: 1px solid #444;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 4px 0;
+	transition: background .8s;
+	width: 200px;
+}
+input[type="text"]:hover, button:hover {
+	background: #ddd;
+}
+.unlocked input, .unlocked button {
+	background: #af0;
+}
+input[type="text"] {
+	border-bottom: none;
+}
+label {
+	background: #fff;
+	cursor: pointer;
+	display: block;
+	height: 24px;
+	transition: background .2s;
+	width: 24px;
+}
+input[type="checkbox"] {
+	left: -100px;
+	position: fixed;
+	top: 0;
+}
+input:checked + label {
+	background: #000;
+}
+.solved input:checked + label {
+	background: #af0;
+}
+	</style>
+</head><body>
+    BountyCon{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}
+	<main>
+		<table><tbody>
+			<tr><td></td><td></td><td></td><td>x</td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td>2 3</td><td>2</td><td>5</td><td>3</td><td>4</td><td>3</td><td>1 1 1</td></tr>
+			<tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>1 5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>1 1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>1 1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>x</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>x</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>x</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+		</tbody><table>
+		<input type="text">
+		<button>check</button>
+	</main>
+</body></html>
