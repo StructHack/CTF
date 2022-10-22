@@ -1,6 +1,7 @@
 from z3 import *
 import string
 
+
 add_flag = 'A'*49
 flag = 'BountyCon{'+add_flag+'}'
 s = Solver()
